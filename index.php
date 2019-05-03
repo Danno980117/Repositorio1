@@ -32,4 +32,9 @@
 	echo $cantidad2, "<br />";
 	echo $cantidad3, "<br />";
 	echo $cantidad4, "<br />";
+
+	echo "<hr />";
+	foreach ($_POST as $clave => $valor) {
+		echo $valor, "<br />";
+	}
 ?>
